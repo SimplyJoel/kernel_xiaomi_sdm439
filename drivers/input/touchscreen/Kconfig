@@ -1449,6 +1449,11 @@ config TOUCHSCREEN_RAYDIUM_CHIPSET
 	depends on I2C
 	help
 	  Say Y here if you have a Raydium WT030 CHIPSET touchscreen.
+config TOUCHSCREEN_ITK9881H
+	bool "ITK9881H Touchscreen"
+	default n
+	help
+	  Say Y here if you have ITK9881H Touchscreen.
 
 	  If unsure, say N.
 
